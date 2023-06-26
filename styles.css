@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-image: url("images/pexels-felix-mittermeier-956981.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+@font-face {
+    font-family: "Genis";
+    src: url("GENIS.ttf");
+}
+
+h1 {
+    font-family: "Genis", serif;
+    color: red;
+    text-shadow: 0px 0px 15px rgb(247, 115, 148);
+    font-size: 100px;
+}
+
+.choice {
+    display: flex;
+    gap: 100px;
+    margin: 0px 0px 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choiceBtn:hover {
+    cursor: pointer;
+    font-size: 32px;
+    text-shadow: 0px 0px 10px rgba(71, 174, 233, 1);
+}
+
+.choiceBtn {
+    background-color: rgba(165, 208, 233, 0.5);
+    border-width: 0;
+    border-radius: 10px;
+    font-family: "Digital", sans-serif;
+    font-size: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+#results {
+    font-family: "GENIS", serif;
+    color: red;
+    text-shadow: 0px 0px 15px rgb(32, 29, 30);
+    font-size: 50px;
+}
+
+.scores {
+    display: flex;
+}
+
+@font-face {
+    font-family: "Digital";
+    src: url("DS-DIGIT.TTF");
+}
+
+#playerScore, #computerScore {
+    flex-direction: column;
+    text-align: center;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    font-family: "Digital", sans-serif;
+    color: red;
+    font-size: 30px;
+    background-color: black;
+    border-color: gray;
+    border-width: 5px;
+    border-style: inset;
+    
+    
+}
+
+#reset:hover {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#reset {
+    background-color: rgb(112, 14, 14);
+    border-width: 0;
+    font-family: "Digital", sans-serif;
+    font-size: 21px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+
